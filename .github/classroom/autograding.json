@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Prep - Install Numpy",
+      "setup": "",
+      "run": "sudo -H pip3 install numpy",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0
+    },
+    {
+      "name": "Main Test",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0
+    }
+  ]
+}
